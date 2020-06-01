@@ -15,3 +15,13 @@ a {
     font-style: italic;
     color : darkblue
 }
+
+li {
+    list-style: none;
+}
+
+.row {
+    border-width: medium;
+    border-color: lightblue;
+    padding: 2%
+}

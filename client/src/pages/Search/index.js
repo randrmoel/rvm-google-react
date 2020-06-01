@@ -54,7 +54,7 @@ class Search extends Component {
           <BookList>
           {this.state.books.map(book => {
             return (
-              <div>
+              <div key={book.id}>
               <BookListItem
               key={book.id} 
               authors={book.volumeInfo.authors ? book.volumeInfo.authors : ["No Author Available"]}

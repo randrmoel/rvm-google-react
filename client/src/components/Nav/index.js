@@ -1,9 +1,10 @@
 import React from "react";
 import Jumbotron from "../Jumbotron";
+require("./style.css")
 
 function Nav() {
   return (
-    <div>
+    <div className ="navdiv">
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <a className="navbar-brand" id="homeLink" href="/">
         Save a Book from Google

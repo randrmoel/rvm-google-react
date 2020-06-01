@@ -1,7 +1,7 @@
 import React from "react";
 import Thumbnail from "../Thumbnail";
 import { Container, Row, Col } from "../Grid";
-require("./styles.css");
+require("./style.css");
 
 // BookList renders a bootstrap list item
 export function BookList({children}) {
