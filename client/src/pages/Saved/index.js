@@ -5,6 +5,7 @@ import axios from "axios";
 import EmptyList from '../../components/EmptyList';
 import RemoveBookBtn from '../../components/RemoveBookBtn';
 import { toast } from 'react-toastify';
+require("./style.css")
 
 
 class Saved extends Component {
@@ -39,11 +40,11 @@ class Saved extends Component {
 
   render() {
     return (
-      <div>
-        <Row>
+      <div >
+        <Row >
           <Col size="md-12">
             {this.state.savedBooks.length > 0 ?
-              <BookList>
+              <BookList >
                 {this.state.savedBooks.map(book => {
                   console.log(book)
                   return (

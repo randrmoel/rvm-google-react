@@ -17,7 +17,7 @@ class App extends Component {
           <Container>
           <ToastContainer
             position="top-center"
-            autoClose={5000}
+            autoClose={3000}
             transition={Zoom}
             hideProgressBar
             newestOnTop

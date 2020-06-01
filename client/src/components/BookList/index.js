@@ -17,7 +17,7 @@ export function BookList({children}) {
   render(){
     console.log(this.props);
     return (
-      <li>
+      <li className = "bookList">
         <Container key = {this.props.link}>
           <Row>
             <Col size="xs-4 sm-2">
