@@ -1,7 +1,7 @@
 ## Google React Book App 
 Find books using the Google Book API and React
 
-<img src = "google-books.jpg" alt ="app picture" />        
+<img src = "./google-books.JPG" alt ="app picture" />        
 
 ## Description
 This application uses React, Router, and other React elements to render the front-end of this application and MondoDB/Mongoose, routes, and express for the backend.
