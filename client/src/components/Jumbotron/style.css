@@ -1,0 +1,15 @@
+div.jumbotron {
+background-image: url(../../assets/images/rowofbooks.jpg);
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+.white{
+    color:floralwhite;
+}
+ h1 {
+     font-size: 50pt ;
+    font-weight: bolder ;
+    color: whitesmoke ;
+    text-shadow: 2px 2px gray;
+ }
